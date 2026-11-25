@@ -4,10 +4,31 @@
 
 > This repository is a public case study. The application source code is kept private because the app is in production and holds real customer data. Code walkthroughs are available on request.
 
-<!-- TODO: add 2–3 screenshots in ./screenshots and uncomment
-![Inventory count screen](screenshots/inventory.png)
-![Admin backoffice](screenshots/backoffice.png)
--->
+## Screenshots
+
+<sub>Taken on the built-in preview mode with seeded demo data. The UI is in Brazilian Portuguese, the language of its users.</sub>
+
+**Staff, on mobile in the stockroom** — pick a supplier, count products; items below their low-stock threshold are flagged in red.
+
+<p>
+  <img src="screenshots/inventory-list.png" alt="Supplier list on mobile" width="260">
+  &nbsp;
+  <img src="screenshots/inventory-count.png" alt="Inventory count form on mobile" width="260">
+</p>
+
+**Managers, on desktop** — browse past counts by month and export them as CSV for supplier orders.
+
+![Inventory history with CSV export](screenshots/history.png)
+
+**Admin backoffice** — manage suppliers and their products.
+
+![Admin backoffice: suppliers](screenshots/admin-suppliers.png)
+
+<details>
+<summary>Supplier product management</summary>
+
+![Admin backoffice: products of a supplier](screenshots/admin-products.png)
+</details>
 
 ## The problem
 
